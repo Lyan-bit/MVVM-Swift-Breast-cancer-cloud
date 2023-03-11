@@ -1,0 +1,6 @@
+framework module Pods_Breast_cancer {
+  umbrella header "Pods-Breast cancer-umbrella.h"
+
+  export *
+  module * { export * }
+}
