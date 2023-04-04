@@ -71,7 +71,8 @@ func killClassification(obj: Classification)
 
 func createByPKClassification(key : String) -> Classification
 { var result : Classification? = Classification.getByPKClassification(index: key)
-  if result != nil { return result! }
+  if result != nil { 
+  return result! }
   result = Classification()
     classificationAllInstances.append(result!)
     Classification.classificationIndex[key] = result!
